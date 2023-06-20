@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 class MyTextField extends StatelessWidget {
@@ -25,14 +25,14 @@ class MyTextField extends StatelessWidget {
         controller: controller,
         keyboardType: TextInputType.emailAddress,
         obscureText: obscureText,
-        style: GoogleFonts.mulish(
+        style: TextStyle(
           color: Color.fromARGB(194, 255, 255, 255),
           letterSpacing: 0.2,
           fontSize: 15.sp,
         ),
         decoration: InputDecoration(
           labelText: labelText,
-          labelStyle: GoogleFonts.mulish(
+          labelStyle: TextStyle(
             color: Color.fromARGB(194, 255, 255, 255),
             letterSpacing: 0.2,
             fontSize: 15.sp,

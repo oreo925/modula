@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:modula/screens/Auth/signin_screen.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:get/get.dart';
@@ -41,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   Text(
                     'Modula',
                     textAlign: TextAlign.center,
-                    style: GoogleFonts.poppins(
+                    style: TextStyle(
                       fontSize: 17.5.sp,
                       color: Colors.white,
                       fontWeight: FontWeight.w500,
@@ -50,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   Text(
                     'By Disruptive AI',
                     textAlign: TextAlign.center,
-                    style: GoogleFonts.mulish(
+                    style: TextStyle(
                       fontSize: 14.sp,
                       color: Colors.white,
                       fontWeight: FontWeight.w400,

@@ -7,7 +7,7 @@ import 'package:modula/utils/utils.dart';
 import 'package:modula/widgets/my_textfield.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 import 'signup_screen.dart';
 
@@ -51,7 +51,7 @@ class _SignInState extends State<SignIn> {
                 Text(
                   'Modula',
                   textAlign: TextAlign.center,
-                  style: GoogleFonts.poppins(
+                  style:TextStyle(
                     fontSize: 17.5.sp,
                     color: Colors.white,
                     fontWeight: FontWeight.w500,
@@ -60,7 +60,7 @@ class _SignInState extends State<SignIn> {
                 Text(
                   'By Disruptive AI',
                   textAlign: TextAlign.center,
-                  style: GoogleFonts.mulish(
+                  style: TextStyle(
                     fontSize: 14.sp,
                     color: Colors.white,
                     fontWeight: FontWeight.w400,
@@ -116,7 +116,7 @@ class _SignInState extends State<SignIn> {
                     SizedBox(height: 3.h),
                     GradientText(
                       'Let’s sign you in',
-                      style: GoogleFonts.inter(
+                      style: TextStyle(
                         fontSize: 19.5.sp,
                         fontWeight: FontWeight.w500,
                         letterSpacing: 0.2,
@@ -147,7 +147,7 @@ class _SignInState extends State<SignIn> {
                         Text(
                           'or Sign In with',
                           textAlign: TextAlign.center,
-                          style: GoogleFonts.mulish(
+                          style: TextStyle(
                             fontSize: 15.sp,
                             color: Colors.white,
                             fontWeight: FontWeight.w600,
@@ -175,7 +175,7 @@ class _SignInState extends State<SignIn> {
                         Text(
                           'Don’t have an account?',
                           textAlign: TextAlign.center,
-                          style: GoogleFonts.mulish(
+                          style: TextStyle(
                             fontSize: 14.5.sp,
                             color: Colors.white,
                             fontWeight: FontWeight.w600,
@@ -191,7 +191,7 @@ class _SignInState extends State<SignIn> {
                             child: Text(
                               'Register',
                               textAlign: TextAlign.center,
-                              style: GoogleFonts.mulish(
+                              style: TextStyle(
                                 fontSize: 14.5.sp,
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
@@ -229,7 +229,7 @@ class _SignInState extends State<SignIn> {
                           child: Text(
                             'Sign In',
                             textAlign: TextAlign.center,
-                            style: GoogleFonts.mulish(
+                            style: TextStyle(
                               fontSize: 16.sp,
                               color: Colors.white,
                               fontWeight: FontWeight.w700,
@@ -237,7 +237,7 @@ class _SignInState extends State<SignIn> {
                           ),
                         ),
                       ),
-                    )
+                    ),
                   ]),
             ),
           ),
