@@ -51,21 +51,21 @@ class DashboardScreen extends StatelessWidget {
         //   backgroundColor: Colors.transparent,
         // ),
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
+          padding:  EdgeInsets.symmetric(horizontal: 15.sp),
           child: Column(
             //crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
-                height: 20,
+                height: 2.h,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
                     'Recents',
-                    style: TextStyle(color: Colors.white, fontSize: 20),
+                    style: TextStyle(color: Colors.white, fontSize: 18.sp),
                   ),
                   MaterialButton(
                     onPressed: () {},
@@ -79,13 +79,13 @@ class DashboardScreen extends StatelessWidget {
                 ],
               ),
               Container(
-                height: 250,
+                height: 35.h,
                 child: Flexible(
                   //fit: FlexFit.loose,
                   child: ClipRRect(
-                    borderRadius: const BorderRadius.only(
-                      bottomLeft: Radius.circular(25),
-                      bottomRight: Radius.circular(25),
+                    borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(25.sp),
+                      bottomRight: Radius.circular(25.sp),
                     ),
                     child: Align(
                       alignment: Alignment.center,
@@ -104,7 +104,7 @@ class DashboardScreen extends StatelessWidget {
                                   fit: BoxFit.cover,
                                   image: AssetImage(imagePath[index]),
                                 ),
-                                borderRadius: BorderRadius.circular(20),
+                                borderRadius: BorderRadius.circular(20.sp),
                                 border: Border.all(color: Colors.black)
                               ),
                             );
@@ -117,41 +117,41 @@ class DashboardScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 3.h,
               ),
               Divider(
-                height: 5,
+                height: 3.h,
                 color: Colors.white,
                 thickness: 1,
               ),
               SizedBox(
-                height: 10,
+                height: 3.h,
               ),
               Text(
                 'Welcome Back',
                 style: TextStyle(
-                    fontSize: 30,
+                    fontSize: 24.sp,
                     fontWeight: FontWeight.w300,
                     color: Colors.grey),
               ),
               Text(
                 'Benjamin',
-                style: TextStyle(fontSize: 30),
+                style: TextStyle(fontSize: 24.sp),
               ),
               SizedBox(
-                height: 10,
+                height: 2.h,
               ),
               Text(
                 'Step into the world of \nImmersive Car Visuals:\nCapture,Customize,\nand Showcase in 360°',
-                style: TextStyle(fontSize: 18,color: Colors.grey),
+                style: TextStyle(fontSize: 17.sp,color: Colors.grey),
               ),
               SizedBox(
-                height: 30,
+                height: 4.h,
               ),
               Align(
                 alignment: Alignment.center,
                 child: Container(
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.all(15.sp),
                   child: Text(
                     'CREATE 3D MODEL',
                     style: TextStyle(
@@ -161,7 +161,7 @@ class DashboardScreen extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                    color: Color.fromARGB(241, 17, 1, 1),
-                   borderRadius: BorderRadius.circular(20),
+                   borderRadius: BorderRadius.circular(25.sp),
                    border: Border.all(color: const Color.fromARGB(255, 87, 21, 98),width: 1.5)
                   ),
                 ),
